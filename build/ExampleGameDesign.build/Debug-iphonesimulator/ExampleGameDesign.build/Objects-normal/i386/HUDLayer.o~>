@@ -1,0 +1,2 @@
+/Users/jon/Desktop/CosmicCowboy/Classes/HUDLayer.m:37: warning: property 'gc' requires method '-gc' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/jon/Desktop/CosmicCowboy/Classes/HUDLayer.m:37: warning: property 'gc' requires the method 'setGc:' to be defined - use @synthesize, @dynamic or provide a method implementation

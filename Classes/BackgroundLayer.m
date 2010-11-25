@@ -1,48 +1,36 @@
 //
 //  BackgroundLayer.m
-//  TestGame
+//  CosmicCowboy
 //
-//  Created by jon on 11/19/10.
+//  Created by Jonathan Johnson on 11/20/10.
 //  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
 
 #import "BackgroundLayer.h"
-#import "TestGameAppDelegate.h"
-
-static BackgroundLayer *gInstance = NULL;
 
 @implementation BackgroundLayer
 
 @synthesize label;
+@synthesize tileMap;
+@synthesize background;
+@synthesize meta;
 
-+(id)sharedLayer {
-	@synchronized(self)
-    {
-		if (gInstance == NULL)
-			gInstance = [[self alloc] init];
-    }
-	return(gInstance);
-}
-
-// on "init" you need to initialize your instance
--(id) init {
-	// always call "super" init
-	// Apple recommends to re-assign "self" with the "super" return value
-	if( (self=[super init] )) {
-		label = [CCLabel labelWithString:@"Background" fontName:@"Marker Felt" fontSize:24];
-		label.position = ccp(240, 300);
-		[self addChild:label];
+- (id) init {
+	if((self = [super init]))
+	{
+		self.tileMap = [TileMap tiledMapWithTMXFile:@"TileMap.tmx"];
+        self.background = [tileMap layerNamed:@"Background"];
+		self.meta = [tileMap layerNamed:@"Meta"];
+		[self.meta setVisible:NO];
+		
+        [self addChild:tileMap z:-1];
 	}
 	return self;
 }
 
-// on "dealloc" you need to release all your retained objects
 - (void) dealloc {
-	// in case you have something to dealloc, do it in this method
-	// in this particular example nothing needs to be released.
-	// cocos2d will automatically release all the children (Label)
 	
-	// don't forget to call "super dealloc"
 	[super dealloc];
 }
+
 @end

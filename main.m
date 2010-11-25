@@ -1,8 +1,8 @@
 //
 //  main.m
-//  TestGame
+//  CosmicCowboy
 //
-//  Created by jon on 11/19/10.
+//  Created by Jonathan Johnson on 11/20/10.
 //  Copyright __MyCompanyName__ 2010. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 int main(int argc, char *argv[]) {
 	NSAutoreleasePool *pool = [NSAutoreleasePool new];
-	int retVal = UIApplicationMain(argc, argv, nil, @"TestGameAppDelegate");
+	int retVal = UIApplicationMain(argc, argv, nil, @"ExampleGameDesignAppDelegate");
 	[pool release];
 	return retVal;
 }

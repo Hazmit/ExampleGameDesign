@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tmw_desert_spacing" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="tmw_desert_spacing.png"/>
+ </tileset>
+ <tileset firstgid="49" name="meta_tiles" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="meta_tiles.png"/>
+  <tile id="0">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="30" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2WSw+CMAyAG9/Gt6J4UMIJPOn+/6+zJpIszR7tHnDh8CWwbPnWDtoVAHDumSuyQSqNlrx3LJClh5VlLWUt8O6Rg4djRu8MKTUUMjd4P0zvL08NQc/hzhKT0vYk9XJyaMtljLf656wllAbuib2Ul2Od1FsP5DXF+0AmHqYZvAXIa0vO8+XOGb0yL61VjWBvJm9MLFLvFnh9KrWXW1tTeW9grqkcr+t8ObXFVGti4j1B2F3mEuDl3Gk4SLxvkPXjkJ5Nvd0dx/adhEJ7ts3rwjaHjivtuR7I6/s3R28/3r4IrYGxPJEvraSzOBAOAAA=
+  </data>
+ </layer>
+ <layer name="Meta" width="30" height="30">
+  <properties>
+   <property name="Test" value=""/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3WSw6AIAwE0F6J+1/OrSHTgv0MwXQSFsaGp6LFISLj0HhnPq7Iza5Wb80zu9bzr3Q9+cv9ZrroHWK46JznG7/dtdJurqutaUZvsdxITbv7c67WN/o/obmrGrZbEeQyrgPtv4x43N3+9GX/rXJRbbt8l5VIL4qOBxAl0TsQDgAA
+  </data>
+ </layer>
+</map>

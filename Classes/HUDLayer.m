@@ -1,49 +1,37 @@
 //
 //  HUDLayer.m
-//  TestGame
+//  CosmicCowboy
 //
-//  Created by jon on 11/19/10.
+//  Created by Jonathan Johnson on 11/20/10.
 //  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
 
 #import "HUDLayer.h"
-#import "BackgroundLayer.h"
-
-static HUDLayer *gInstance = NULL;
 
 @implementation HUDLayer
 
-@synthesize label;
+@synthesize joy;
 
-+(id)sharedLayer {
-	@synchronized(self)
-    {
-		if (gInstance == NULL)
-			gInstance = [[self alloc] init];
-    }
-	return(gInstance);
-}
-
-// on "init" you need to initialize your instance
--(id) init {
-	// always call "super" init
-	// Apple recommends to re-assign "self" with the "super" return value
-	if((self=[super init] )) {
-		label = [CCLabel labelWithString:@"HUD" fontName:@"Marker Felt" fontSize:24];
-		label.position = ccp(240, 50);
-		[self addChild:label];
+- (id) init {
+	if((self = [super init]))
+	{
+				
+		SneakyJoystickSkinnedBase *leftJoy = [[[SneakyJoystickSkinnedBase alloc] init] autorelease];
+		leftJoy.position = ccp(64,64);
+		leftJoy.backgroundSprite = [CCSprite spriteWithFile:@"joystick.png"];
+		leftJoy.thumbSprite = [CCSprite spriteWithFile:@"cap.png"];
+		leftJoy.joystick = [[SneakyJoystick alloc] initWithRect:CGRectMake(0,0,128,128)];
+		leftJoy.joystick.isDPad = YES;
+		[self addChild:leftJoy];
 		
+		self.joy = leftJoy;
 	}
 	return self;
 }
 
-// on "dealloc" you need to release all your retained objects
 - (void) dealloc {
-	// in case you have something to dealloc, do it in this method
-	// in this particular example nothing needs to be released.
-	// cocos2d will automatically release all the children (Label)
 	
-	// don't forget to call "super dealloc"
 	[super dealloc];
 }
+
 @end

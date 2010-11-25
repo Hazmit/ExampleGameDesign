@@ -1,4 +1,0 @@
-/Users/jon/Desktop/TestGame/Classes/HelloWorldScene.m: In function '+[GameDirectorScene scene]':
-/Users/jon/Desktop/TestGame/Classes/HelloWorldScene.m:24: error: 'layer' undeclared (first use in this function)
-/Users/jon/Desktop/TestGame/Classes/HelloWorldScene.m:24: error: (Each undeclared identifier is reported only once
-/Users/jon/Desktop/TestGame/Classes/HelloWorldScene.m:24: error: for each function it appears in.)

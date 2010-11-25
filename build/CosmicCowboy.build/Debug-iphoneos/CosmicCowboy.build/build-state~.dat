@@ -1,0 +1,1612 @@
+TCosmicCowboy
+v7
+r0
+t312030955.409488
+cCheck dependencies
+cCpResource build/Debug-iphoneos/CosmicCowboy.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/Info.plist Resources/Info.plist
+cCopyPNGFile /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/Default.png Resources/Default.png
+cCopyPNGFile /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/fps_images.png Resources/fps_images.png
+cCopyPNGFile /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/Icon.png Resources/Icon.png
+cCpResource build/Debug-iphoneos/CosmicCowboy.app/player.gif Resources/player.gif
+cCpResource build/Debug-iphoneos/CosmicCowboy.app/TileMap.tmx Resources/TileMap.tmx
+cCopyPNGFile /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/tmw_desert_spacing.png Resources/tmw_desert_spacing.png
+cCopyPNGFile /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/meta_tiles.png Resources/meta_tiles.png
+cCopyPNGFile /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/joystick.png Resources/joystick.png
+cCopyPNGFile /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/cap.png Resources/cap.png
+cProcessPCH /var/folders/qJ/qJgPCUYCHySh2dIaMlACx++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/CosmicCowboy_Prefix-alyfajvachzrideykuaigmjfubyy/CosmicCowboy_Prefix.pch.gch CosmicCowboy_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/main.o /Users/jonj/Desktop/CosmicCowboy/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/CosmicCowboyAppDelegate.o /Users/jonj/Desktop/CosmicCowboy/Classes/CosmicCowboyAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/MasterGameScene.o /Users/jonj/Desktop/CosmicCowboy/Classes/MasterGameScene.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/BackgroundLayer.o /Users/jonj/Desktop/CosmicCowboy/Classes/BackgroundLayer.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/HUDLayer.o /Users/jonj/Desktop/CosmicCowboy/Classes/HUDLayer.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/PlayerLayer.o /Users/jonj/Desktop/CosmicCowboy/Classes/PlayerLayer.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/MasterGameController.o /Users/jonj/Desktop/CosmicCowboy/Classes/MasterGameController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/SneakyButton.o /Users/jonj/Desktop/CosmicCowboy/Classes/SneakyButton.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/SneakyButtonSkinnedBase.o /Users/jonj/Desktop/CosmicCowboy/Classes/SneakyButtonSkinnedBase.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/SneakyJoystick.o /Users/jonj/Desktop/CosmicCowboy/Classes/SneakyJoystick.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/SneakyJoystickSkinnedBase.o /Users/jonj/Desktop/CosmicCowboy/Classes/SneakyJoystickSkinnedBase.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/SneakyJoystickSkinnedDPadExample.o /Users/jonj/Desktop/CosmicCowboy/Classes/SneakyJoystickSkinnedDPadExample.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/SneakyJoystickSkinnedJoystickExample.o /Users/jonj/Desktop/CosmicCowboy/Classes/SneakyJoystickSkinnedJoystickExample.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/ColoredCircleSprite.o /Users/jonj/Desktop/CosmicCowboy/Classes/ColoredCircleSprite.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/ColoredSquareSprite.o /Users/jonj/Desktop/CosmicCowboy/Classes/ColoredSquareSprite.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/TileMap.o /Users/jonj/Desktop/CosmicCowboy/Classes/TileMap.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/PlayerSprite.o /Users/jonj/Desktop/CosmicCowboy/Classes/PlayerSprite.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/CosmicCowboy normal armv6
+cGenerateDSYMFile /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app.dSYM /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/CosmicCowboy
+cProcessProductPackaging "/Users/jonj/Library/MobileDevice/Provisioning Profiles/EFD676B3-16E1-40A2-8CD9-4DC75838AB9D.mobileprovision" /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/embedded.mobileprovision
+cTouch /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy.xcent
+cCodeSign /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004CC11C42000000000020BF30
+t1287724098
+s2146096
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC10EF400000000003B8CB0
+t1287720692
+s3902640
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+c000000004CC10DCA00000000000022F0
+t1287720394
+s8944
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGImage.h
+c000000004CC10DCA0000000000002650
+t1287720394
+s9808
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004CC10F3800000000000459B0
+t1287720760
+s285104
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004CC110BE000000000000094F
+t1287721150
+s2383
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
+c000000004CC110BE0000000000000A61
+t1287721150
+s2657
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004CC110BE0000000000009369
+t1287721150
+s37737
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004CC110BE0000000000003C4A
+t1287721150
+s15434
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004CC110CB000000000002C650
+t1287721163
+s181840
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1111C00000000000000C4
+t1287721244
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC1127D0000000000267530
+t1287721597
+s2520368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/inttypes.h
+c000000004CB3E4B800000000000027D1
+t1286857912
+s10193
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/math.h
+c000000004CB3E44400000000000004F1
+t1286857796
+s1265
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/objc/objc.h
+c000000004CC1098E0000000000000A2F
+t1287719310
+s2607
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/stdlib.h
+c000000004CB3E4B80000000000002DF5
+t1286857912
+s11765
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/string.h
+c000000004CB3E4B80000000000001731
+t1286857912
+s5937
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/sys/time.h
+c000000004CBFACD90000000000001E17
+t1287630041
+s7703
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/lib/gcc/arm-apple-darwin10/4.2.1/include/stddef.h
+c000000004C5A56870000000000003197
+t1280988807
+s12695
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/lib/libz.dylib
+c000000004CC105400000000000020FF0
+t1287718208
+s135152
+
+N/Users/jonj/Desktop/CosmicCowboy/Classes/BackgroundLayer.h
+c000000004CE8E7C900000000000001F8
+t1290332105
+s504
+i"cocos2d.h"
+i"TileMap.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/Classes/BackgroundLayer.m
+c000000004CE8EE5600000000000002F7
+t1290333782
+s759
+i"BackgroundLayer.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/Classes/ColoredCircleSprite.h
+c000000004C6F72A60000000000000360
+t1282372262
+s864
+i"cocos2d.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/Classes/ColoredCircleSprite.m
+c000000004C6F72A60000000000000D82
+t1282372262
+s3458
+i"ColoredCircleSprite.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/Classes/ColoredSquareSprite.h
+c000000004C6F72A6000000000000033D
+t1282372262
+s829
+i"cocos2d.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/Classes/ColoredSquareSprite.m
+c000000004C6F72A60000000000000D40
+t1282372262
+s3392
+i"ColoredSquareSprite.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/Classes/CosmicCowboyAppDelegate.h
+c000000004CE8D89E000000000000016F
+t1290328222
+s367
+i<UIKit/UIKit.h>
+i"MasterGameController.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/Classes/CosmicCowboyAppDelegate.m
+c000000004CE8D9C200000000000009F1
+t1290328514
+s2545
+i"CosmicCowboyAppDelegate.h"
+i"cocos2d.h"
+i"MasterGameScene.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/Classes/HUDLayer.h
+c000000004CE8F1D20000000000000203
+t1290334674
+s515
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+i"SneakyJoystick.h"
+i"SneakyJoystickSkinnedBase.h"
+i"ColoredCircleSprite.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/Classes/HUDLayer.m
+c000000004CE8FB0700000000000003CA
+t1290337031
+s970
+i"HUDLayer.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/Classes/MasterGameController.h
+c000000004CE8F4A40000000000000217
+t1290335396
+s535
+i"cocos2d.h"
+i"BackgroundLayer.h"
+i"PlayerLayer.h"
+i"HUDLayer.h"
+i"TileMap.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/Classes/MasterGameController.m
+c000000004CE8FF380000000000000710
+t1290338104
+s1808
+i"MasterGameController.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/Classes/MasterGameScene.h
+c000000004CE8E87F000000000000018A
+t1290332287
+s394
+i"cocos2d.h"
+i"MasterGameController.h"
+i"HUDLayer.h"
+i"PlayerLayer.h"
+i"BackgroundLayer.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/Classes/MasterGameScene.m
+c000000004CE8F49C0000000000000434
+t1290335388
+s1076
+i"MasterGameScene.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/Classes/PlayerLayer.h
+c000000004CE8F96800000000000001D4
+t1290336616
+s468
+i"cocos2d.h"
+i"MasterGameController.h"
+i"TileMap.h"
+i"BackgroundLayer.h"
+i"PlayerSprite.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/Classes/PlayerLayer.m
+c000000004CE8F9EB00000000000003F5
+t1290336747
+s1013
+i"PlayerLayer.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/Classes/PlayerSprite.h
+c000000004CE8F997000000000000011C
+t1290336663
+s284
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+i"MasterGameController.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/Classes/PlayerSprite.m
+c000000004CE8FEF700000000000001FA
+t1290338039
+s506
+i"PlayerSprite.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/Classes/SneakyButton.h
+c000000004C6F72A60000000000000362
+t1282372262
+s866
+i"cocos2d.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/Classes/SneakyButton.m
+c000000004C6F72A60000000000000A87
+t1282372262
+s2695
+i"SneakyButton.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/Classes/SneakyButtonSkinnedBase.h
+c000000004C6F72A60000000000000290
+t1282372262
+s656
+i"cocos2d.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/Classes/SneakyButtonSkinnedBase.m
+c000000004C6F72A60000000000000BE9
+t1282372262
+s3049
+i"SneakyButtonSkinnedBase.h"
+i"SneakyButton.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/Classes/SneakyJoystick.h
+c000000004C6F72A6000000000000063E
+t1282372262
+s1598
+i"cocos2d.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/Classes/SneakyJoystick.m
+c000000004C6F72A60000000000000FE4
+t1282372262
+s4068
+i"SneakyJoystick.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/Classes/SneakyJoystickSkinnedBase.h
+c000000004C6F72A60000000000000218
+t1282372262
+s536
+i"cocos2d.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/Classes/SneakyJoystickSkinnedBase.m
+c000000004C6F72A600000000000007FF
+t1282372262
+s2047
+i"SneakyJoystickSkinnedBase.h"
+i"SneakyJoystick.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/Classes/SneakyJoystickSkinnedDPadExample.h
+c000000004C6F72A6000000000000011E
+t1282372262
+s286
+i"SneakyJoystickSkinnedBase.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/Classes/SneakyJoystickSkinnedDPadExample.m
+c000000004C6F72A600000000000002D4
+t1282372262
+s724
+i"SneakyJoystickSkinnedDPadExample.h"
+i"cocos2d.h"
+i"SneakyJoystick.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/Classes/SneakyJoystickSkinnedJoystickExample.h
+c000000004C6F72A60000000000000127
+t1282372262
+s295
+i"SneakyJoystickSkinnedBase.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/Classes/SneakyJoystickSkinnedJoystickExample.m
+c000000004C6F72A6000000000000031D
+t1282372262
+s797
+i"SneakyJoystickSkinnedJoystickExample.h"
+i"cocos2d.h"
+i"SneakyJoystick.h"
+i"ColoredCircleSprite.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/Classes/TileMap.h
+c000000004CE8EE09000000000000019D
+t1290333705
+s413
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/Classes/TileMap.m
+c000000004CE8EE0500000000000002B1
+t1290333701
+s689
+i"TileMap.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/CosmicCowboy_Prefix.pch
+c000000004CE8BFB700000000000000BB
+t1290321847
+s187
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/jonj/Desktop/CosmicCowboy/Resources/Default.png
+c000000004CE8BFB700000000000077AB
+t1290321847
+s30635
+
+N/Users/jonj/Desktop/CosmicCowboy/Resources/Icon.png
+c000000004CE8BFB7000000000000246F
+t1290321847
+s9327
+
+N/Users/jonj/Desktop/CosmicCowboy/Resources/TileMap.tmx
+c000000004CE8F82B000000000000048F
+t1290336299
+s1167
+
+N/Users/jonj/Desktop/CosmicCowboy/Resources/cap.png
+c000000004CE8D2E10000000000001DC8
+t1290326753
+s7624
+
+N/Users/jonj/Desktop/CosmicCowboy/Resources/fps_images.png
+c000000004CE8BFB7000000000000183B
+t1290321847
+s6203
+
+N/Users/jonj/Desktop/CosmicCowboy/Resources/joystick.png
+c000000004CE8D2B40000000000003423
+t1290326708
+s13347
+
+N/Users/jonj/Desktop/CosmicCowboy/Resources/meta_tiles.png
+c000000004BF2E64B00000000000000C8
+t1274209867
+s200
+
+N/Users/jonj/Desktop/CosmicCowboy/Resources/player.gif
+c0000000035706F9E0000000000000493
+t896561054
+s1171
+
+N/Users/jonj/Desktop/CosmicCowboy/Resources/tmw_desert_spacing.png
+c000000004C84561E00000000000093C6
+t1283741214
+s37830
+
+N/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy.xcent
+t1290338154
+s430
+
+N/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/BackgroundLayer.o
+t1290338153
+s21828
+
+N/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/ColoredCircleSprite.o
+t1290338153
+s29484
+
+N/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/ColoredSquareSprite.o
+t1290338153
+s29568
+
+N/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/CosmicCowboy.LinkFileList
+c000000004CE8FF6700000000000008DB
+t1290338151
+s2267
+
+N/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/CosmicCowboyAppDelegate.o
+t1290338153
+s63736
+
+N/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/HUDLayer.o
+t1290338153
+s21896
+
+N/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/MasterGameController.o
+t1290338153
+s24016
+
+N/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/MasterGameScene.o
+t1290338153
+s18476
+
+N/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/PlayerLayer.o
+t1290338153
+s22372
+
+N/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/PlayerSprite.o
+t1290338153
+s14796
+
+N/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/SneakyButton.o
+t1290338153
+s66028
+
+N/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/SneakyButtonSkinnedBase.o
+t1290338153
+s28480
+
+N/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/SneakyJoystick.o
+t1290338153
+s69860
+
+N/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/SneakyJoystickSkinnedBase.o
+t1290338153
+s23872
+
+N/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/SneakyJoystickSkinnedDPadExample.o
+t1290338153
+s17320
+
+N/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/SneakyJoystickSkinnedJoystickExample.o
+t1290338153
+s17584
+
+N/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/TileMap.o
+t1290338153
+s18628
+
+N/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/main.o
+t1290338152
+s6672
+
+N/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app
+t1290338155
+s612
+
+N/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app.dSYM
+t1290338154
+s102
+
+N/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/CosmicCowboy
+t1290338153
+s1567660
+
+N/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/Default.png
+t1290338152
+s31932
+
+N/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/Icon.png
+t1290338152
+s10022
+
+N/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/Info.plist
+t1290338151
+s817
+
+N/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/PkgInfo
+t1290338151
+s8
+
+N/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/ResourceRules.plist
+t1290338151
+s485
+
+N/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/TileMap.tmx
+t1290338151
+s1167
+
+N/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/cap.png
+t1290338152
+s7558
+
+N/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/embedded.mobileprovision
+t1290338154
+s7521
+
+N/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/fps_images.png
+t1290338152
+s7188
+
+N/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/joystick.png
+t1290338152
+s12577
+
+N/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/meta_tiles.png
+t1290338152
+s197
+
+N/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/player.gif
+t1290338151
+s1171
+
+N/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/tmw_desert_spacing.png
+t1290338152
+s35256
+
+N/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/libcocos2d libraries.a
+c000000004CE8FF6700000000003DC700
+t1290338151
+s4048640
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCAction.h
+c000000004CE8BFB7000000000000165C
+t1290321847
+s5724
+i<UIKit/UIKit.h>
+i<sys/time.h>
+i"ccTypes.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCActionManager.h
+c000000004CE8BFB70000000000001072
+t1290321847
+s4210
+i"CCAction.h"
+i"Support/ccCArray.h"
+i"Support/uthash.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCAtlasNode.h
+c000000004CE8BFB70000000000000C4A
+t1290321847
+s3146
+i"CCTextureAtlas.h"
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCBitmapFontAtlas.h
+c000000004CE8BFB70000000000001533
+t1290321847
+s5427
+i"CCAtlasNode.h"
+i"CCSpriteSheet.h"
+i"Support/uthash.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCBlockSupport.h
+c000000004CE8BFB700000000000007AA
+t1290321847
+s1962
+i<Foundation/Foundation.h>
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCCamera.h
+c000000004CE8BFB70000000000000B48
+t1290321847
+s2888
+i"CCNode.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCCameraAction.h
+c000000004CE8BFB700000000000009AA
+t1290321847
+s2474
+i"CCIntervalAction.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCCompatibility.h
+c000000004CE8BFB70000000000003891
+t1290321847
+s14481
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCConfiguration.h
+c000000004CE8BFB70000000000000A89
+t1290321847
+s2697
+i<OpenGLES/ES1/gl.h>
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCDirector.h
+c000000004CE8BFB700000000000041A6
+t1290321847
+s16806
+i"ccConfig.h"
+i"ccTypes.h"
+i"Support/EAGLView.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCDrawingPrimitives.h
+c000000004CE8BFB70000000000000B1A
+t1290321847
+s2842
+i<CoreGraphics/CGGeometry.h>
+i<objc/objc.h>
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCEaseAction.h
+c000000004CE8BFB70000000000001671
+t1290321847
+s5745
+i"CCIntervalAction.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCGrabber.h
+c000000004CE8BFB700000000000005FA
+t1290321847
+s1530
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<UIKit/UIKit.h>
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCGrid.h
+c000000004CE8BFB70000000000000E50
+t1290321847
+s3664
+i<UIKit/UIKit.h>
+i"CCNode.h"
+i"CCCamera.h"
+i"ccTypes.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCGrid3DAction.h
+c000000004CE8BFB700000000000019DF
+t1290321847
+s6623
+i"CCGridAction.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCGridAction.h
+c000000004CE8BFB700000000000014A7
+t1290321847
+s5287
+i<UIKit/UIKit.h>
+i"CCIntervalAction.h"
+i"CCInstantAction.h"
+i"CCGrid.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCInstantAction.h
+c000000004CE8BFB70000000000001178
+t1290321847
+s4472
+i<UIKit/UIKit.h>
+i"CCAction.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCIntervalAction.h
+c000000004CE8BFB70000000000003266
+t1290321847
+s12902
+i"CCNode.h"
+i"CCAction.h"
+i"CCProtocols.h"
+i<sys/time.h>
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCLabel.h
+c000000004CE8BFB70000000000000A19
+t1290321847
+s2585
+i"CCTexture2D.h"
+i"CCSprite.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCLabelAtlas.h
+c000000004CE8BFB7000000000000098E
+t1290321847
+s2446
+i"CCAtlasNode.h"
+i"CCTextureAtlas.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCLayer.h
+c000000004CE8BFB7000000000000139E
+t1290321847
+s5022
+i<UIKit/UIKit.h>
+i"CCProtocols.h"
+i"CCNode.h"
+i"CCTouchDelegateProtocol.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCMenu.h
+c000000004CE8BFB70000000000000AEE
+t1290321847
+s2798
+i<UIKit/UIKit.h>
+i"CCMenuItem.h"
+i"CCLayer.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCMenuItem.h
+c000000004CE8BFB700000000000031FC
+t1290321847
+s12796
+i"CCBlockSupport.h"
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCMotionStreak.h
+c000000004CE8BFB70000000000000B2A
+t1290321847
+s2858
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCRibbon.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCNode.h
+c000000004CE8BFB70000000000003E93
+t1290321847
+s16019
+i<OpenGLES/ES1/gl.h>
+i"CCAction.h"
+i"ccTypes.h"
+i"CCTexture2D.h"
+i"CCProtocols.h"
+i"ccConfig.h"
+i"Support/CCArray.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCPVRTexture.h
+c000000004CE8BFB70000000000000CA5
+t1290321847
+s3237
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCPageTurn3DAction.h
+c000000004CE8BFB70000000000000644
+t1290321847
+s1604
+i"CCGrid3DAction.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCPageTurnTransition.h
+c000000004CE8BFB700000000000008F5
+t1290321847
+s2293
+i"CCTransition.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCParallaxNode.h
+c000000004CE8BFB7000000000000075B
+t1290321847
+s1883
+i"CCNode.h"
+i"Support/ccCArray.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCParticleExamples.h
+c000000004CE8BFB700000000000008C1
+t1290321847
+s2241
+i"CCPointParticleSystem.h"
+i"CCQuadParticleSystem.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCParticleSystem.h
+c000000004CE8BFB70000000000003694
+t1290321847
+s13972
+i"CCProtocols.h"
+i"CCNode.h"
+i"ccTypes.h"
+i"ccConfig.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCPointParticleSystem.h
+c000000004CE8BFB70000000000000762
+t1290321847
+s1890
+i"CCParticleSystem.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCProgressTimer.h
+c000000004CE8BFB70000000000000B48
+t1290321847
+s2888
+i<Foundation/Foundation.h>
+i"CCSprite.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCProgressTimerActions.h
+c000000004CE8BFB7000000000000088D
+t1290321847
+s2189
+i<Foundation/Foundation.h>
+i"CCProgressTimer.h"
+i"CCIntervalAction.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCPropertyAction.h
+c000000004CE8BFB70000000000000941
+t1290321847
+s2369
+i<Foundation/Foundation.h>
+i"CCIntervalAction.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCProtocols.h
+c000000004CE8BFB70000000000000E35
+t1290321847
+s3637
+i"ccTypes.h"
+i"CCTexture2D.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCQuadParticleSystem.h
+c000000004CE8BFB700000000000009A2
+t1290321847
+s2466
+i"CCParticleSystem.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCRadialTransition.h
+c000000004CE8BFB700000000000005F2
+t1290321847
+s1522
+i"CCTransition.h"
+i"CCProgressTimer.h"
+i"CCProgressTimerActions.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCRenderTexture.h
+c000000004CE8BFB70000000000000A68
+t1290321847
+s2664
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCSprite.h"
+i"Support/OpenGL_Internal.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCRibbon.h
+c000000004CE8BFB70000000000000FCE
+t1290321847
+s4046
+i"CCNode.h"
+i"CCTexture2D.h"
+i"CCProtocols.h"
+i<OpenGLES/ES1/gl.h>
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCScene.h
+c000000004CE8BFB70000000000000691
+t1290321847
+s1681
+i<UIKit/UIKit.h>
+i"CCNode.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCScheduler.h
+c000000004CE8BFB700000000000019FA
+t1290321847
+s6650
+i<Foundation/Foundation.h>
+i"Support/uthash.h"
+i"ccTypes.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCSprite.h
+c000000004CE8BFB70000000000002EA9
+t1290321847
+s11945
+i"CCNode.h"
+i"CCProtocols.h"
+i"CCTextureAtlas.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCSpriteFrame.h
+c000000004CE8BFB700000000000013F5
+t1290321847
+s5109
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCSpriteFrameCache.h
+c000000004CE8BFB70000000000000FF9
+t1290321847
+s4089
+i<Foundation/Foundation.h>
+i"CCSpriteFrame.h"
+i"CCTexture2D.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCSpriteSheet.h
+c000000004CE8BFB70000000000001762
+t1290321847
+s5986
+i"CCNode.h"
+i"CCProtocols.h"
+i"CCTextureAtlas.h"
+i"ccMacros.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCTMXLayer.h
+c000000004CE8BFB70000000000001820
+t1290321847
+s6176
+i"CCAtlasNode.h"
+i"CCSpriteSheet.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCTMXObjectGroup.h
+c000000004CE8BFB700000000000008ED
+t1290321847
+s2285
+i"CCAtlasNode.h"
+i"CCSpriteSheet.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCTMXTiledMap.h
+c000000004CE8BFB700000000000014EC
+t1290321847
+s5356
+i"CCAtlasNode.h"
+i"CCSpriteSheet.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCTMXXMLParser.h
+c000000004CE8BFB700000000000015E1
+t1290321847
+s5601
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCTexture2D.h
+c000000004CE8BFB7000000000000262B
+t1290321847
+s9771
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCTextureAtlas.h
+c000000004CE8BFB70000000000001477
+t1290321847
+s5239
+i"CCTexture2D.h"
+i"ccTypes.h"
+i"ccConfig.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCTextureCache.h
+c000000004CE8BFB80000000000001303
+t1290321848
+s4867
+i<Foundation/Foundation.h>
+i<CoreGraphics/CGImage.h>
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCTileMapAtlas.h
+c000000004CE8BFB80000000000000B72
+t1290321848
+s2930
+i"CCTextureAtlas.h"
+i"CCAtlasNode.h"
+i"Support/TGAlib.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCTiledGridAction.h
+c000000004CE8BFB80000000000001A15
+t1290321848
+s6677
+i"CCGridAction.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCTouchDelegateProtocol.h
+c000000004CE8BFB80000000000000AC5
+t1290321848
+s2757
+i<UIKit/UIKit.h>
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCTouchDispatcher.h
+c000000004CE8BFB80000000000000FC6
+t1290321848
+s4038
+i"CCTouchDelegateProtocol.h"
+i"Support/EAGLView.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCTouchHandler.h
+c000000004CE8BFB80000000000000C9C
+t1290321848
+s3228
+i"CCTouchDelegateProtocol.h"
+i"CCTouchDispatcher.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/CCTransition.h
+c000000004CE8BFB80000000000002130
+t1290321848
+s8496
+i"CCScene.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/Support/CCArray.h
+c000000004CE8BFB80000000000000BBB
+t1290321848
+s3003
+i"ccCArray.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/Support/CCFileUtils.h
+c000000004CE8BFB8000000000000058C
+t1290321848
+s1420
+i<Foundation/Foundation.h>
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/Support/CCProfiling.h
+c000000004CE8BFB800000000000006E9
+t1290321848
+s1769
+i<Foundation/Foundation.h>
+i<sys/time.h>
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/Support/CGPointExtension.h
+c000000004CE8BFB80000000000001E13
+t1290321848
+s7699
+i<CoreGraphics/CGGeometry.h>
+i<math.h>
+i<objc/objc.h>
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/Support/EAGLView.h
+c000000004CE8BFB800000000000017DD
+t1290321848
+s6109
+i<UIKit/UIKit.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/EAGLDrawable.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i"ESRenderer.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/Support/ESRenderer.h
+c000000004CE8BFB800000000000005FB
+t1290321848
+s1531
+i<QuartzCore/QuartzCore.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/EAGLDrawable.h>
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/Support/OpenGL_Internal.h
+c000000004CE8BFB800000000000011A7
+t1290321848
+s4519
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/Support/TGAlib.h
+c000000004CE8BFB80000000000000444
+t1290321848
+s1092
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/Support/ccCArray.h
+c000000004CE8BFB80000000000003095
+t1290321848
+s12437
+i<Foundation/Foundation.h>
+i<stdlib.h>
+i<string.h>
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/Support/uthash.h
+c000000004CE8BFB8000000000000FB13
+t1290321848
+s64275
+i<string.h>
+i<stddef.h>
+i<inttypes.h>
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/ccConfig.h
+c000000004CE8BFB80000000000001ABD
+t1290321848
+s6845
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/ccMacros.h
+c000000004CE8BFB80000000000001740
+t1290321848
+s5952
+i<math.h>
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/ccTypes.h
+c000000004CE8BFB80000000000001651
+t1290321848
+s5713
+i<objc/objc.h>
+i<CoreGraphics/CGGeometry.h>
+i<OpenGLES/ES1/gl.h>
+
+N/Users/jonj/Desktop/CosmicCowboy/libs/cocos2d/cocos2d.h
+c000000004CE8BFB80000000000000E62
+t1290321848
+s3682
+i"ccConfig.h"
+i"CCBlockSupport.h"
+i"CCAction.h"
+i"CCCamera.h"
+i"CCCameraAction.h"
+i"CCProtocols.h"
+i"CCNode.h"
+i"CCDirector.h"
+i"CCTouchDispatcher.h"
+i"CCTouchDelegateProtocol.h"
+i"CCInstantAction.h"
+i"CCIntervalAction.h"
+i"CCEaseAction.h"
+i"CCLabel.h"
+i"CCLayer.h"
+i"CCMenu.h"
+i"CCMenuItem.h"
+i"CCParticleSystem.h"
+i"CCPointParticleSystem.h"
+i"CCQuadParticleSystem.h"
+i"CCParticleExamples.h"
+i"CCDrawingPrimitives.h"
+i"CCScene.h"
+i"CCScheduler.h"
+i"CCSprite.h"
+i"CCSpriteFrame.h"
+i"CCSpriteSheet.h"
+i"CCSpriteFrameCache.h"
+i"CCTextureCache.h"
+i"CCTransition.h"
+i"CCTextureAtlas.h"
+i"CCLabelAtlas.h"
+i"CCAtlasNode.h"
+i"CCEaseAction.h"
+i"CCTiledGridAction.h"
+i"CCGrabber.h"
+i"CCGrid.h"
+i"CCGrid3DAction.h"
+i"CCGridAction.h"
+i"CCBitmapFontAtlas.h"
+i"CCParallaxNode.h"
+i"CCActionManager.h"
+i"CCTMXTiledMap.h"
+i"CCTMXLayer.h"
+i"CCTMXObjectGroup.h"
+i"CCTMXXMLParser.h"
+i"CCTileMapAtlas.h"
+i"CCRenderTexture.h"
+i"CCMotionStreak.h"
+i"CCPageTurn3DAction.h"
+i"CCPageTurnTransition.h"
+i"CCTexture2D.h"
+i"CCPVRTexture.h"
+i"CCTouchHandler.h"
+i"CCConfiguration.h"
+i"CCRadialTransition.h"
+i"CCProgressTimerActions.h"
+i"CCPropertyAction.h"
+i"ccTypes.h"
+i"ccMacros.h"
+i"Support/OpenGL_Internal.h"
+i"Support/EAGLView.h"
+i"Support/CCFileUtils.h"
+i"Support/CGPointExtension.h"
+i"Support/ccCArray.h"
+i"Support/CCArray.h"
+i"Support/CCProfiling.h"
+i"CCCompatibility.h"
+
+N/Users/jonj/Desktop/CosmicCowboy/main.m
+c000000004CE8BFB8000000000000016F
+t1290321848
+s367
+i<UIKit/UIKit.h>
+
+N/Users/jonj/Library/MobileDevice/Provisioning Profiles/EFD676B3-16E1-40A2-8CD9-4DC75838AB9D.mobileprovision
+c000000004CE093700000000000001D61
+t1289786224
+s7521
+
+N/var/folders/qJ/qJgPCUYCHySh2dIaMlACx++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/CosmicCowboy_Prefix-alyfajvachzrideykuaigmjfubyy/CosmicCowboy_Prefix.pch.gch
+t1290338152
+s9991896
+
+NResources/Info.plist
+c000000004CE8BFB7000000000000038E
+t1290321847
+s910
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies312030951#312030951#0(0"0(0#1#0"8620654816#0"0#
+
+CCodeSign /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app
+s312030954.028061
+e312030955.409377
+r1
+xCodeSign
+x/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app
+lSLF07#2@46"CodeSign build/Debug-iphoneos/CosmicCowboy.app312030954#312030955#0(0"0(0#0#70"/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app8617087104#648"    cd /Users/jonj/Desktop/CosmicCowboy    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Jon Johnson (LJ62Y3ZDGZ)" --resource-rules=/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/ResourceRules.plist --entitlements /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy.xcent /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app0#
+
+CCompileC build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/BackgroundLayer.o /Users/jonj/Desktop/CosmicCowboy/Classes/BackgroundLayer.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s312030952.883981
+e312030953.011406
+r1
+xCompileC
+xbuild/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/BackgroundLayer.o
+x/Users/jonj/Desktop/CosmicCowboy/Classes/BackgroundLayer.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/jonj/Desktop/CosmicCowboy/Classes/BackgroundLayer.m312030952#312030953#0(0"0(0#0#58"/Users/jonj/Desktop/CosmicCowboy/Classes/BackgroundLayer.m8620568320#1836"    cd /Users/jonj/Desktop/CosmicCowboy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-generated-files.hmap -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-own-target-headers.hmap -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-all-target-headers.hmap -iquote /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-project-headers.hmap -Wall -F/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos -I/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/include -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/DerivedSources/armv6 -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/DerivedSources -include /var/folders/qJ/qJgPCUYCHySh2dIaMlACx++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/CosmicCowboy_Prefix-alyfajvachzrideykuaigmjfubyy/CosmicCowboy_Prefix.pch -c /Users/jonj/Desktop/CosmicCowboy/Classes/BackgroundLayer.m -o /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/BackgroundLayer.o0#
+
+CCompileC build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/ColoredCircleSprite.o /Users/jonj/Desktop/CosmicCowboy/Classes/ColoredCircleSprite.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s312030953.041567
+e312030953.210909
+r1
+xCompileC
+xbuild/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/ColoredCircleSprite.o
+x/Users/jonj/Desktop/CosmicCowboy/Classes/ColoredCircleSprite.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/jonj/Desktop/CosmicCowboy/Classes/ColoredCircleSprite.m312030953#312030953#0(0"0(0#0#62"/Users/jonj/Desktop/CosmicCowboy/Classes/ColoredCircleSprite.m8616422112#1844"    cd /Users/jonj/Desktop/CosmicCowboy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-generated-files.hmap -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-own-target-headers.hmap -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-all-target-headers.hmap -iquote /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-project-headers.hmap -Wall -F/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos -I/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/include -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/DerivedSources/armv6 -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/DerivedSources -include /var/folders/qJ/qJgPCUYCHySh2dIaMlACx++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/CosmicCowboy_Prefix-alyfajvachzrideykuaigmjfubyy/CosmicCowboy_Prefix.pch -c /Users/jonj/Desktop/CosmicCowboy/Classes/ColoredCircleSprite.m -o /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/ColoredCircleSprite.o0#
+
+CCompileC build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/ColoredSquareSprite.o /Users/jonj/Desktop/CosmicCowboy/Classes/ColoredSquareSprite.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s312030953.043736
+e312030953.209242
+r1
+xCompileC
+xbuild/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/ColoredSquareSprite.o
+x/Users/jonj/Desktop/CosmicCowboy/Classes/ColoredSquareSprite.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/jonj/Desktop/CosmicCowboy/Classes/ColoredSquareSprite.m312030953#312030953#0(0"0(0#0#62"/Users/jonj/Desktop/CosmicCowboy/Classes/ColoredSquareSprite.m8614499488#1844"    cd /Users/jonj/Desktop/CosmicCowboy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-generated-files.hmap -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-own-target-headers.hmap -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-all-target-headers.hmap -iquote /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-project-headers.hmap -Wall -F/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos -I/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/include -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/DerivedSources/armv6 -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/DerivedSources -include /var/folders/qJ/qJgPCUYCHySh2dIaMlACx++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/CosmicCowboy_Prefix-alyfajvachzrideykuaigmjfubyy/CosmicCowboy_Prefix.pch -c /Users/jonj/Desktop/CosmicCowboy/Classes/ColoredSquareSprite.m -o /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/ColoredSquareSprite.o0#
+
+CCompileC build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/CosmicCowboyAppDelegate.o /Users/jonj/Desktop/CosmicCowboy/Classes/CosmicCowboyAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s312030952.882621
+e312030953.043630
+r1
+xCompileC
+xbuild/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/CosmicCowboyAppDelegate.o
+x/Users/jonj/Desktop/CosmicCowboy/Classes/CosmicCowboyAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/jonj/Desktop/CosmicCowboy/Classes/CosmicCowboyAppDelegate.m312030952#312030953#0(0"0(0#0#66"/Users/jonj/Desktop/CosmicCowboy/Classes/CosmicCowboyAppDelegate.m8623686880#1852"    cd /Users/jonj/Desktop/CosmicCowboy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-generated-files.hmap -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-own-target-headers.hmap -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-all-target-headers.hmap -iquote /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-project-headers.hmap -Wall -F/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos -I/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/include -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/DerivedSources/armv6 -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/DerivedSources -include /var/folders/qJ/qJgPCUYCHySh2dIaMlACx++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/CosmicCowboy_Prefix-alyfajvachzrideykuaigmjfubyy/CosmicCowboy_Prefix.pch -c /Users/jonj/Desktop/CosmicCowboy/Classes/CosmicCowboyAppDelegate.m -o /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/CosmicCowboyAppDelegate.o0#
+
+CCompileC build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/HUDLayer.o /Users/jonj/Desktop/CosmicCowboy/Classes/HUDLayer.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s312030952.884680
+e312030953.022212
+r1
+xCompileC
+xbuild/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/HUDLayer.o
+x/Users/jonj/Desktop/CosmicCowboy/Classes/HUDLayer.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/jonj/Desktop/CosmicCowboy/Classes/HUDLayer.m312030952#312030953#0(0"0(0#0#51"/Users/jonj/Desktop/CosmicCowboy/Classes/HUDLayer.m8620427840#1822"    cd /Users/jonj/Desktop/CosmicCowboy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-generated-files.hmap -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-own-target-headers.hmap -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-all-target-headers.hmap -iquote /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-project-headers.hmap -Wall -F/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos -I/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/include -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/DerivedSources/armv6 -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/DerivedSources -include /var/folders/qJ/qJgPCUYCHySh2dIaMlACx++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/CosmicCowboy_Prefix-alyfajvachzrideykuaigmjfubyy/CosmicCowboy_Prefix.pch -c /Users/jonj/Desktop/CosmicCowboy/Classes/HUDLayer.m -o /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/HUDLayer.o0#
+
+CCompileC build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/MasterGameController.o /Users/jonj/Desktop/CosmicCowboy/Classes/MasterGameController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s312030952.886575
+e312030953.040312
+r1
+xCompileC
+xbuild/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/MasterGameController.o
+x/Users/jonj/Desktop/CosmicCowboy/Classes/MasterGameController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/jonj/Desktop/CosmicCowboy/Classes/MasterGameController.m312030952#312030953#0(0"0(0#0#63"/Users/jonj/Desktop/CosmicCowboy/Classes/MasterGameController.m8619844704#1846"    cd /Users/jonj/Desktop/CosmicCowboy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-generated-files.hmap -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-own-target-headers.hmap -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-all-target-headers.hmap -iquote /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-project-headers.hmap -Wall -F/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos -I/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/include -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/DerivedSources/armv6 -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/DerivedSources -include /var/folders/qJ/qJgPCUYCHySh2dIaMlACx++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/CosmicCowboy_Prefix-alyfajvachzrideykuaigmjfubyy/CosmicCowboy_Prefix.pch -c /Users/jonj/Desktop/CosmicCowboy/Classes/MasterGameController.m -o /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/MasterGameController.o0#
+
+CCompileC build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/MasterGameScene.o /Users/jonj/Desktop/CosmicCowboy/Classes/MasterGameScene.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s312030952.883288
+e312030953.004313
+r1
+xCompileC
+xbuild/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/MasterGameScene.o
+x/Users/jonj/Desktop/CosmicCowboy/Classes/MasterGameScene.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/jonj/Desktop/CosmicCowboy/Classes/MasterGameScene.m312030952#312030953#0(0"0(0#0#58"/Users/jonj/Desktop/CosmicCowboy/Classes/MasterGameScene.m8621466400#1836"    cd /Users/jonj/Desktop/CosmicCowboy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-generated-files.hmap -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-own-target-headers.hmap -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-all-target-headers.hmap -iquote /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-project-headers.hmap -Wall -F/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos -I/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/include -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/DerivedSources/armv6 -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/DerivedSources -include /var/folders/qJ/qJgPCUYCHySh2dIaMlACx++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/CosmicCowboy_Prefix-alyfajvachzrideykuaigmjfubyy/CosmicCowboy_Prefix.pch -c /Users/jonj/Desktop/CosmicCowboy/Classes/MasterGameScene.m -o /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/MasterGameScene.o0#
+
+CCompileC build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/PlayerLayer.o /Users/jonj/Desktop/CosmicCowboy/Classes/PlayerLayer.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s312030952.885646
+e312030953.012859
+r1
+xCompileC
+xbuild/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/PlayerLayer.o
+x/Users/jonj/Desktop/CosmicCowboy/Classes/PlayerLayer.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/jonj/Desktop/CosmicCowboy/Classes/PlayerLayer.m312030952#312030953#0(0"0(0#0#54"/Users/jonj/Desktop/CosmicCowboy/Classes/PlayerLayer.m8620084480#1828"    cd /Users/jonj/Desktop/CosmicCowboy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-generated-files.hmap -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-own-target-headers.hmap -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-all-target-headers.hmap -iquote /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-project-headers.hmap -Wall -F/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos -I/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/include -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/DerivedSources/armv6 -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/DerivedSources -include /var/folders/qJ/qJgPCUYCHySh2dIaMlACx++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/CosmicCowboy_Prefix-alyfajvachzrideykuaigmjfubyy/CosmicCowboy_Prefix.pch -c /Users/jonj/Desktop/CosmicCowboy/Classes/PlayerLayer.m -o /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/PlayerLayer.o0#
+
+CCompileC build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/PlayerSprite.o /Users/jonj/Desktop/CosmicCowboy/Classes/PlayerSprite.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s312030953.097834
+e312030953.217003
+r1
+xCompileC
+xbuild/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/PlayerSprite.o
+x/Users/jonj/Desktop/CosmicCowboy/Classes/PlayerSprite.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/jonj/Desktop/CosmicCowboy/Classes/PlayerSprite.m312030953#312030953#0(0"0(0#0#55"/Users/jonj/Desktop/CosmicCowboy/Classes/PlayerSprite.m8627427328#1830"    cd /Users/jonj/Desktop/CosmicCowboy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-generated-files.hmap -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-own-target-headers.hmap -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-all-target-headers.hmap -iquote /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-project-headers.hmap -Wall -F/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos -I/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/include -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/DerivedSources/armv6 -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/DerivedSources -include /var/folders/qJ/qJgPCUYCHySh2dIaMlACx++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/CosmicCowboy_Prefix-alyfajvachzrideykuaigmjfubyy/CosmicCowboy_Prefix.pch -c /Users/jonj/Desktop/CosmicCowboy/Classes/PlayerSprite.m -o /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/PlayerSprite.o0#
+
+CCompileC build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/SneakyButton.o /Users/jonj/Desktop/CosmicCowboy/Classes/SneakyButton.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s312030952.887550
+e312030953.075139
+r1
+xCompileC
+xbuild/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/SneakyButton.o
+x/Users/jonj/Desktop/CosmicCowboy/Classes/SneakyButton.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/jonj/Desktop/CosmicCowboy/Classes/SneakyButton.m312030952#312030953#0(0"0(0#0#55"/Users/jonj/Desktop/CosmicCowboy/Classes/SneakyButton.m8619666272#1830"    cd /Users/jonj/Desktop/CosmicCowboy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-generated-files.hmap -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-own-target-headers.hmap -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-all-target-headers.hmap -iquote /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-project-headers.hmap -Wall -F/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos -I/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/include -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/DerivedSources/armv6 -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/DerivedSources -include /var/folders/qJ/qJgPCUYCHySh2dIaMlACx++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/CosmicCowboy_Prefix-alyfajvachzrideykuaigmjfubyy/CosmicCowboy_Prefix.pch -c /Users/jonj/Desktop/CosmicCowboy/Classes/SneakyButton.m -o /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/SneakyButton.o0#
+
+CCompileC build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/SneakyButtonSkinnedBase.o /Users/jonj/Desktop/CosmicCowboy/Classes/SneakyButtonSkinnedBase.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s312030952.933633
+e312030953.097708
+r1
+xCompileC
+xbuild/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/SneakyButtonSkinnedBase.o
+x/Users/jonj/Desktop/CosmicCowboy/Classes/SneakyButtonSkinnedBase.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/jonj/Desktop/CosmicCowboy/Classes/SneakyButtonSkinnedBase.m312030952#312030953#0(0"0(0#0#66"/Users/jonj/Desktop/CosmicCowboy/Classes/SneakyButtonSkinnedBase.m8619386592#1852"    cd /Users/jonj/Desktop/CosmicCowboy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-generated-files.hmap -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-own-target-headers.hmap -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-all-target-headers.hmap -iquote /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-project-headers.hmap -Wall -F/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos -I/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/include -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/DerivedSources/armv6 -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/DerivedSources -include /var/folders/qJ/qJgPCUYCHySh2dIaMlACx++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/CosmicCowboy_Prefix-alyfajvachzrideykuaigmjfubyy/CosmicCowboy_Prefix.pch -c /Users/jonj/Desktop/CosmicCowboy/Classes/SneakyButtonSkinnedBase.m -o /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/SneakyButtonSkinnedBase.o0#
+
+CCompileC build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/SneakyJoystick.o /Users/jonj/Desktop/CosmicCowboy/Classes/SneakyJoystick.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s312030953.004439
+e312030953.181954
+r1
+xCompileC
+xbuild/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/SneakyJoystick.o
+x/Users/jonj/Desktop/CosmicCowboy/Classes/SneakyJoystick.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/jonj/Desktop/CosmicCowboy/Classes/SneakyJoystick.m312030953#312030953#0(0"0(0#0#57"/Users/jonj/Desktop/CosmicCowboy/Classes/SneakyJoystick.m8617834112#1834"    cd /Users/jonj/Desktop/CosmicCowboy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-generated-files.hmap -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-own-target-headers.hmap -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-all-target-headers.hmap -iquote /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-project-headers.hmap -Wall -F/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos -I/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/include -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/DerivedSources/armv6 -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/DerivedSources -include /var/folders/qJ/qJgPCUYCHySh2dIaMlACx++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/CosmicCowboy_Prefix-alyfajvachzrideykuaigmjfubyy/CosmicCowboy_Prefix.pch -c /Users/jonj/Desktop/CosmicCowboy/Classes/SneakyJoystick.m -o /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/SneakyJoystick.o0#
+
+CCompileC build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/SneakyJoystickSkinnedBase.o /Users/jonj/Desktop/CosmicCowboy/Classes/SneakyJoystickSkinnedBase.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s312030953.011551
+e312030953.163024
+r1
+xCompileC
+xbuild/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/SneakyJoystickSkinnedBase.o
+x/Users/jonj/Desktop/CosmicCowboy/Classes/SneakyJoystickSkinnedBase.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/jonj/Desktop/CosmicCowboy/Classes/SneakyJoystickSkinnedBase.m312030953#312030953#0(0"0(0#0#68"/Users/jonj/Desktop/CosmicCowboy/Classes/SneakyJoystickSkinnedBase.m8617033664#1856"    cd /Users/jonj/Desktop/CosmicCowboy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-generated-files.hmap -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-own-target-headers.hmap -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-all-target-headers.hmap -iquote /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-project-headers.hmap -Wall -F/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos -I/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/include -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/DerivedSources/armv6 -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/DerivedSources -include /var/folders/qJ/qJgPCUYCHySh2dIaMlACx++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/CosmicCowboy_Prefix-alyfajvachzrideykuaigmjfubyy/CosmicCowboy_Prefix.pch -c /Users/jonj/Desktop/CosmicCowboy/Classes/SneakyJoystickSkinnedBase.m -o /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/SneakyJoystickSkinnedBase.o0#
+
+CCompileC build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/SneakyJoystickSkinnedDPadExample.o /Users/jonj/Desktop/CosmicCowboy/Classes/SneakyJoystickSkinnedDPadExample.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s312030953.012976
+e312030953.140998
+r1
+xCompileC
+xbuild/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/SneakyJoystickSkinnedDPadExample.o
+x/Users/jonj/Desktop/CosmicCowboy/Classes/SneakyJoystickSkinnedDPadExample.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/jonj/Desktop/CosmicCowboy/Classes/SneakyJoystickSkinnedDPadExample.m312030953#312030953#0(0"0(0#0#75"/Users/jonj/Desktop/CosmicCowboy/Classes/SneakyJoystickSkinnedDPadExample.m8616388864#1870"    cd /Users/jonj/Desktop/CosmicCowboy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-generated-files.hmap -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-own-target-headers.hmap -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-all-target-headers.hmap -iquote /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-project-headers.hmap -Wall -F/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos -I/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/include -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/DerivedSources/armv6 -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/DerivedSources -include /var/folders/qJ/qJgPCUYCHySh2dIaMlACx++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/CosmicCowboy_Prefix-alyfajvachzrideykuaigmjfubyy/CosmicCowboy_Prefix.pch -c /Users/jonj/Desktop/CosmicCowboy/Classes/SneakyJoystickSkinnedDPadExample.m -o /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/SneakyJoystickSkinnedDPadExample.o0#
+
+CCompileC build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/SneakyJoystickSkinnedJoystickExample.o /Users/jonj/Desktop/CosmicCowboy/Classes/SneakyJoystickSkinnedJoystickExample.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s312030953.022401
+e312030953.163253
+r1
+xCompileC
+xbuild/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/SneakyJoystickSkinnedJoystickExample.o
+x/Users/jonj/Desktop/CosmicCowboy/Classes/SneakyJoystickSkinnedJoystickExample.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/jonj/Desktop/CosmicCowboy/Classes/SneakyJoystickSkinnedJoystickExample.m312030953#312030953#0(0"0(0#0#79"/Users/jonj/Desktop/CosmicCowboy/Classes/SneakyJoystickSkinnedJoystickExample.m8614348992#1878"    cd /Users/jonj/Desktop/CosmicCowboy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-generated-files.hmap -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-own-target-headers.hmap -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-all-target-headers.hmap -iquote /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-project-headers.hmap -Wall -F/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos -I/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/include -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/DerivedSources/armv6 -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/DerivedSources -include /var/folders/qJ/qJgPCUYCHySh2dIaMlACx++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/CosmicCowboy_Prefix-alyfajvachzrideykuaigmjfubyy/CosmicCowboy_Prefix.pch -c /Users/jonj/Desktop/CosmicCowboy/Classes/SneakyJoystickSkinnedJoystickExample.m -o /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/SneakyJoystickSkinnedJoystickExample.o0#
+
+CCompileC build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/TileMap.o /Users/jonj/Desktop/CosmicCowboy/Classes/TileMap.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s312030953.075270
+e312030953.196811
+r1
+xCompileC
+xbuild/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/TileMap.o
+x/Users/jonj/Desktop/CosmicCowboy/Classes/TileMap.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/jonj/Desktop/CosmicCowboy/Classes/TileMap.m312030953#312030953#0(0"0(0#0#50"/Users/jonj/Desktop/CosmicCowboy/Classes/TileMap.m8628349344#1820"    cd /Users/jonj/Desktop/CosmicCowboy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-generated-files.hmap -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-own-target-headers.hmap -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-all-target-headers.hmap -iquote /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-project-headers.hmap -Wall -F/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos -I/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/include -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/DerivedSources/armv6 -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/DerivedSources -include /var/folders/qJ/qJgPCUYCHySh2dIaMlACx++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/CosmicCowboy_Prefix-alyfajvachzrideykuaigmjfubyy/CosmicCowboy_Prefix.pch -c /Users/jonj/Desktop/CosmicCowboy/Classes/TileMap.m -o /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/TileMap.o0#
+
+CCompileC build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/main.o /Users/jonj/Desktop/CosmicCowboy/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s312030952.881917
+e312030952.933507
+r1
+xCompileC
+xbuild/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/main.o
+x/Users/jonj/Desktop/CosmicCowboy/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/jonj/Desktop/CosmicCowboy/main.m312030952#312030952#0(0"0(0#0#39"/Users/jonj/Desktop/CosmicCowboy/main.m8624262944#1806"    cd /Users/jonj/Desktop/CosmicCowboy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-generated-files.hmap -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-own-target-headers.hmap -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-all-target-headers.hmap -iquote /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-project-headers.hmap -Wall -F/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos -I/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/include -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/DerivedSources/armv6 -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/DerivedSources -include /var/folders/qJ/qJgPCUYCHySh2dIaMlACx++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/CosmicCowboy_Prefix-alyfajvachzrideykuaigmjfubyy/CosmicCowboy_Prefix.pch -c /Users/jonj/Desktop/CosmicCowboy/main.m -o /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/main.o0#
+
+CCopyPNGFile /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/Default.png Resources/Default.png
+s312030951.628387
+e312030952.307656
+r1
+xCopyPNGFile
+x/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/Default.png
+xResources/Default.png
+lSLF07#2@83"CopyPNGFile build/Debug-iphoneos/CosmicCowboy.app/Default.png Resources/Default.png312030951#312030952#0(0"0(0#0#54"/Users/jonj/Desktop/CosmicCowboy/Resources/Default.png27585058826027076#559"    cd /Users/jonj/Desktop/CosmicCowboy    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonj/Desktop/CosmicCowboy/Resources/Default.png /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/Default.png0#
+
+CCopyPNGFile /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/Icon.png Resources/Icon.png
+s312030951.629343
+e312030952.052408
+r1
+xCopyPNGFile
+x/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/Icon.png
+xResources/Icon.png
+lSLF07#2@77"CopyPNGFile build/Debug-iphoneos/CosmicCowboy.app/Icon.png Resources/Icon.png312030951#312030952#0(0"0(0#0#51"/Users/jonj/Desktop/CosmicCowboy/Resources/Icon.png8620868384#553"    cd /Users/jonj/Desktop/CosmicCowboy    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonj/Desktop/CosmicCowboy/Resources/Icon.png /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/Icon.png0#
+
+CCopyPNGFile /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/cap.png Resources/cap.png
+s312030951.633835
+e312030952.067956
+r1
+xCopyPNGFile
+x/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/cap.png
+xResources/cap.png
+lSLF07#2@75"CopyPNGFile build/Debug-iphoneos/CosmicCowboy.app/cap.png Resources/cap.png312030951#312030952#0(0"0(0#0#50"/Users/jonj/Desktop/CosmicCowboy/Resources/cap.png8616949184#551"    cd /Users/jonj/Desktop/CosmicCowboy    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonj/Desktop/CosmicCowboy/Resources/cap.png /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/cap.png0#
+
+CCopyPNGFile /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/fps_images.png Resources/fps_images.png
+s312030951.628880
+e312030952.084549
+r1
+xCopyPNGFile
+x/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/fps_images.png
+xResources/fps_images.png
+lSLF07#2@89"CopyPNGFile build/Debug-iphoneos/CosmicCowboy.app/fps_images.png Resources/fps_images.png312030951#312030952#0(0"0(0#0#57"/Users/jonj/Desktop/CosmicCowboy/Resources/fps_images.png8621862048#565"    cd /Users/jonj/Desktop/CosmicCowboy    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonj/Desktop/CosmicCowboy/Resources/fps_images.png /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/fps_images.png0#
+
+CCopyPNGFile /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/joystick.png Resources/joystick.png
+s312030951.631697
+e312030952.093169
+r1
+xCopyPNGFile
+x/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/joystick.png
+xResources/joystick.png
+lSLF07#2@85"CopyPNGFile build/Debug-iphoneos/CosmicCowboy.app/joystick.png Resources/joystick.png312030951#312030952#0(0"0(0#0#55"/Users/jonj/Desktop/CosmicCowboy/Resources/joystick.png8617862016#561"    cd /Users/jonj/Desktop/CosmicCowboy    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonj/Desktop/CosmicCowboy/Resources/joystick.png /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/joystick.png0#
+
+CCopyPNGFile /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/meta_tiles.png Resources/meta_tiles.png
+s312030951.631219
+e312030952.043010
+r1
+xCopyPNGFile
+x/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/meta_tiles.png
+xResources/meta_tiles.png
+lSLF07#2@89"CopyPNGFile build/Debug-iphoneos/CosmicCowboy.app/meta_tiles.png Resources/meta_tiles.png312030951#312030952#0(0"0(0#0#57"/Users/jonj/Desktop/CosmicCowboy/Resources/meta_tiles.png8619376928#565"    cd /Users/jonj/Desktop/CosmicCowboy    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonj/Desktop/CosmicCowboy/Resources/meta_tiles.png /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/meta_tiles.png0#
+
+CCopyPNGFile /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/tmw_desert_spacing.png Resources/tmw_desert_spacing.png
+s312030951.630746
+e312030952.185474
+r1
+xCopyPNGFile
+x/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/tmw_desert_spacing.png
+xResources/tmw_desert_spacing.png
+lSLF07#2@105"CopyPNGFile build/Debug-iphoneos/CosmicCowboy.app/tmw_desert_spacing.png Resources/tmw_desert_spacing.png312030951#312030952#0(0"0(0#0#65"/Users/jonj/Desktop/CosmicCowboy/Resources/tmw_desert_spacing.png8619791648#581"    cd /Users/jonj/Desktop/CosmicCowboy    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonj/Desktop/CosmicCowboy/Resources/tmw_desert_spacing.png /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/tmw_desert_spacing.png0#
+
+CCpResource build/Debug-iphoneos/CosmicCowboy.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s312030951.563691
+e312030951.628330
+r1
+xCpResource
+xbuild/Debug-iphoneos/CosmicCowboy.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist312030951#312030951#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8620227328#487"    cd /Users/jonj/Desktop/CosmicCowboy    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app0#
+
+CCpResource build/Debug-iphoneos/CosmicCowboy.app/TileMap.tmx Resources/TileMap.tmx
+s312030951.630296
+e312030951.633781
+r1
+xCpResource
+xbuild/Debug-iphoneos/CosmicCowboy.app/TileMap.tmx
+xResources/TileMap.tmx
+lSLF07#2@26"Copy Resources/TileMap.tmx312030951#312030951#0(0"0(0#0#54"/Users/jonj/Desktop/CosmicCowboy/Resources/TileMap.tmx8620017184#452"    cd /Users/jonj/Desktop/CosmicCowboy    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonj/Desktop/CosmicCowboy/Resources/TileMap.tmx /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app0#
+
+CCpResource build/Debug-iphoneos/CosmicCowboy.app/player.gif Resources/player.gif
+s312030951.629842
+e312030951.633682
+r1
+xCpResource
+xbuild/Debug-iphoneos/CosmicCowboy.app/player.gif
+xResources/player.gif
+lSLF07#2@25"Copy Resources/player.gif312030951#312030951#0(0"0(0#0#53"/Users/jonj/Desktop/CosmicCowboy/Resources/player.gif8620234304#451"    cd /Users/jonj/Desktop/CosmicCowboy    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonj/Desktop/CosmicCowboy/Resources/player.gif /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app0#
+
+CGenerateDSYMFile /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app.dSYM /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/CosmicCowboy
+s312030953.902374
+e312030954.007802
+r1
+xGenerateDSYMFile
+x/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app.dSYM
+x/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/CosmicCowboy
+lSLF07#2@110"GenerateDSYMFile build/Debug-iphoneos/CosmicCowboy.app.dSYM build/Debug-iphoneos/CosmicCowboy.app/CosmicCowboy312030953#312030954#0(0"0(0#0#83"/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/CosmicCowboy8616894464#359"    cd /Users/jonj/Desktop/CosmicCowboy    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/CosmicCowboy -o /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app.dSYM0#
+
+CLd /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/CosmicCowboy normal armv6
+s312030953.217071
+e312030953.902305
+r1
+xLd
+x/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/CosmicCowboy
+xnormal
+xarmv6
+lSLF07#2@88"Link /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/CosmicCowboy312030953#312030953#0(0"0(0#0#0"8619594848#967"    cd /Users/jonj/Desktop/CosmicCowboy    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos -F/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos -filelist /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/Objects-normal/armv6/CosmicCowboy.LinkFileList -dead_strip -all_load -ObjC -miphoneos-version-min=3.0 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -o /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/CosmicCowboy0#
+
+CProcessInfoPlistFile /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/Info.plist Resources/Info.plist
+s312030951.564321
+e312030951.596637
+r1
+xProcessInfoPlistFile
+x/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/Info.plist
+xResources/Info.plist
+lSLF07#2@28"Process Resources/Info.plist312030951#312030951#0(0"0(0#0#53"/Users/jonj/Desktop/CosmicCowboy/Resources/Info.plist8616316352#555"    cd /Users/jonj/Desktop/CosmicCowboy    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Resources/Info.plist -genpkginfo /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/ResourceRules.plist -o /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/Info.plist0#
+
+CProcessPCH /var/folders/qJ/qJgPCUYCHySh2dIaMlACx++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/CosmicCowboy_Prefix-alyfajvachzrideykuaigmjfubyy/CosmicCowboy_Prefix.pch.gch CosmicCowboy_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s312030952.307735
+e312030952.881837
+r1
+xProcessPCH
+x/var/folders/qJ/qJgPCUYCHySh2dIaMlACx++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/CosmicCowboy_Prefix-alyfajvachzrideykuaigmjfubyy/CosmicCowboy_Prefix.pch.gch
+xCosmicCowboy_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile CosmicCowboy_Prefix.pch312030952#312030952#0(0"0(0#0#56"/Users/jonj/Desktop/CosmicCowboy/CosmicCowboy_Prefix.pch8628182880#1705"    cd /Users/jonj/Desktop/CosmicCowboy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-generated-files.hmap -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-own-target-headers.hmap -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-all-target-headers.hmap -iquote /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy-project-headers.hmap -Wall -F/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos -I/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/include -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/DerivedSources/armv6 -I/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/DerivedSources -c /Users/jonj/Desktop/CosmicCowboy/CosmicCowboy_Prefix.pch -o /var/folders/qJ/qJgPCUYCHySh2dIaMlACx++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/CosmicCowboy_Prefix-alyfajvachzrideykuaigmjfubyy/CosmicCowboy_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/jonj/Library/MobileDevice/Provisioning Profiles/EFD676B3-16E1-40A2-8CD9-4DC75838AB9D.mobileprovision" /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/embedded.mobileprovision
+s312030954.007882
+e312030954.009029
+r1
+xProcessProductPackaging
+x/Users/jonj/Library/MobileDevice/Provisioning Profiles/EFD676B3-16E1-40A2-8CD9-4DC75838AB9D.mobileprovision
+x/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/embedded.mobileprovision
+lSLF07#2@196"ProcessProductPackaging "/Users/jonj/Library/MobileDevice/Provisioning Profiles/EFD676B3-16E1-40A2-8CD9-4DC75838AB9D.mobileprovision" build/Debug-iphoneos/CosmicCowboy.app/embedded.mobileprovision312030954#312030954#0(0"0(0#0#95"/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/embedded.mobileprovision8619517856#415"    cd /Users/jonj/Desktop/CosmicCowboy    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/jonj/Library/MobileDevice/Provisioning Profiles/EFD676B3-16E1-40A2-8CD9-4DC75838AB9D.mobileprovision" -o /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy.xcent
+s312030954.011566
+e312030954.028017
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy.xcent
+lSLF07#2@190"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy.xcent312030954#312030954#0(0"0(0#0#110"/Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy.xcent8619437952#435"    cd /Users/jonj/Desktop/CosmicCowboy    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/jonj/Desktop/CosmicCowboy/build/CosmicCowboy.build/Debug-iphoneos/CosmicCowboy.build/CosmicCowboy.xcent0#
+
+CTouch /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app
+s312030954.009075
+e312030954.011513
+r1
+xTouch
+x/Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app
+lSLF07#2@76"Touch /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app312030954#312030954#0(0"0(0#0#0"8616860032#257"    cd /Users/jonj/Desktop/CosmicCowboy    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/jonj/Desktop/CosmicCowboy/build/Debug-iphoneos/CosmicCowboy.app0#
+
